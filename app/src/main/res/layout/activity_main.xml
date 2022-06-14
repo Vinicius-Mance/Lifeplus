@@ -6,73 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/gradient_bg"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
     >
-
+<!-- logo -->
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_marginTop="100dp"
-        android:src="@drawable/placeholder" />
-
-        <TextView
-            android:id="@+id/labelLogo"
-            android:layout_below="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:text="Life+"
-            android:textAllCaps="true"
-            android:textColor="#000"
-            android:layout_centerHorizontal="true"
-            android:textSize="32dp" />
-
-    <Button
-        android:id="@+id/btnCriarPerfil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="150dp"
-        android:background="@drawable/round_rectangle"
-        android:backgroundTint="@color/main_purple"
-        android:text="Criar Perfil"
-        android:textAllCaps="true"
-        android:textColor="#fff"
-        android:textSize="30dp"
-        android:textStyle="bold" />
+        android:src="@drawable/placeholder"
+        />
 
     <TextView
+        android:id="@+id/labelLogo"
+        style="@style/title"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:text="Life+"
+        android:textSize="32dp"
+        android:textStyle="italic"
+        />
+<!--botão criar perfil-->
+    <Button
+        android:id="@+id/btnCriarPerfil"
+        style="@style/button"
+        android:layout_marginBottom="150dp"
+        android:text="Criar Perfil"
+        />
+
+<!--   botão entrar/login-->
+    <TextView
         android:id="@+id/labelCriarPerfil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Já tem um perfil?"
-        android:textColor="#000"
+        style="@style/label"
         android:layout_above="@+id/btnEntrar"
-        android:layout_centerHorizontal="true"
-        android:textAlignment="center"
+        android:text="Já tem um perfil?"
         />
 
     <Button
+        style="@style/button"
         android:id="@+id/btnEntrar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="15dp"
-        android:background="@drawable/round_rectangle"
-        android:backgroundTint="#fff"
         android:text="Entrar"
-        android:textAllCaps="true"
-        android:textColor="#000"
-        android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        />
 
 </RelativeLayout>

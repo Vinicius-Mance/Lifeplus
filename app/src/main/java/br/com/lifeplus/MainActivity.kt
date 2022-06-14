@@ -11,14 +11,22 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnEntrar = findViewById<Button>(R.id.btnEntrar)
+        val btnCriarPerfil = findViewById<Button>(R.id.btnCriarPerfil)
 
-        btnEntrar.setOnClickListener() {
-            goToLogin()
+        btnEntrar.setOnClickListener {
+            val link = Intent(this, LoginActivity::class.java)
+            startActivity(link)
         }
+
+        btnCriarPerfil.setOnClickListener {
+            val link = Intent(this, RegisterActivity::class.java)
+            startActivity(link)
+        }
+
     }
 
-    fun goToLogin(){
-        val link = Intent(this, LoginActivity::class.java)
-        startActivity(link)
-    }
+
+
+
+
 }

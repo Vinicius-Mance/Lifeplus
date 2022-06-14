@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <RelativeLayout style="@style/main">
+
+        <TextView
+            android:id="@+id/titleMenu"
+            style="@style/title"
+            android:drawableStart="@drawable/arrow"
+            android:text="Menu" />
+
+        <RelativeLayout
+            style="@style/section"
+            android:id="@+id/verRegistros"
+            android:layout_below="@+id/titleMenu"
+            android:layout_marginTop="20dp"
+            >
+            <ImageView
+                style="@style/sectionImage"
+                android:src="@drawable/placeholder"
+                />
+            <TextView
+                style="@style/label"
+                android:text="Ver registros"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/section"
+            android:id="@+id/adicionarRegistros"
+            android:layout_below="@+id/verRegistros"
+            >
+            <ImageView
+                style="@style/sectionImage"
+                android:src="@drawable/placeholder"
+                />
+            <TextView
+                style="@style/label"
+                android:text="Adicionar registros"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

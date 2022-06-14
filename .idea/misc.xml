@@ -8,8 +8,12 @@
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/ic_lock_24.xml" value="0.1765" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/round_corners_rectangle.xml" value="0.1765" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/round_rectangle.xml" value="0.1765" />
+        <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/round_rectangle_primary.xml" value="0.1765" />
+        <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/round_rectangle_secondary.xml" value="0.1765" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/activity_login.xml" value="0.333786231884058" />
-        <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/activity_main.xml" value="0.18161094224924013" />
+        <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/activity_menu.xml" value="0.333786231884058" />
+        <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/activity_register.xml" value="0.333786231884058" />
       </map>
     </option>
   </component>

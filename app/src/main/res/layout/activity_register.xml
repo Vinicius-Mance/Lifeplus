@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <RelativeLayout
+        style="@style/main"
+        android:backgroundTint="@color/cream"
+        >
+
+        <TextView
+            style="@style/title"
+            android:id="@+id/titleRegister"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/arrow"
+            android:text="Cadastro"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            />
+
+        <!--  nome editText-->
+        <TextView
+            style="@style/label"
+            android:id="@+id/labelNome"
+            android:layout_below="@+id/titleRegister"
+            android:text="Como podemos te chamar?"
+            />
+
+        <EditText
+            style="@style/input"
+            android:id="@+id/editTextNome"
+            android:layout_below="@id/labelNome"
+            android:hint="Use um apelido ;)"
+            android:inputType="text"
+            />
+
+<!--        email editText-->
+        <TextView
+            style="@style/label"
+            android:id="@+id/labelEmail"
+            android:layout_below="@+id/editTextNome"
+            android:text="Insira um email"
+            />
+
+        <EditText
+            style="@style/input"
+            android:id="@+id/editTextEmail"
+            android:layout_below="@id/labelEmail"
+            android:hint="seuemail@lifeplus.com"
+            android:inputType="textEmailAddress"
+            />
+
+
+        <!--   senha editText-->
+        <TextView
+            style="@style/label"
+            android:id="@+id/labelSenha"
+            android:layout_below="@id/editTextEmail"
+            android:text="Senha"
+            />
+
+        <EditText
+            style="@style/input"
+            android:id="@+id/editTextSenha"
+            android:layout_below="@id/labelSenha"
+            android:drawableEnd="@drawable/ic_lock_24"
+            android:hint="•••••••••••••"
+            android:inputType="textPassword"
+            />
+
+<!--        confirmar senha EditText-->
+
+        <TextView
+            style="@style/label"
+            android:id="@+id/labelConfirmarSenha"
+            android:layout_below="@id/editTextSenha"
+            android:text="Confirmar senha"
+            />
+
+        <EditText
+            style="@style/input"
+            android:id="@+id/editTextConfirmarSenha"
+            android:layout_below="@id/labelConfirmarSenha"
+            android:drawableEnd="@drawable/ic_lock_24"
+            android:hint="•••••••••••••"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnCriarPerfil"
+            android:text="Criar perfil"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
