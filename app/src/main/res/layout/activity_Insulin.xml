@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SugarActivity"
-    android:background="@drawable/gradient_bg"
-    >
+    tools:context=".InsulinActivity"
+    android:background="@drawable/gradient_bg">
 
     <RelativeLayout style="@style/main">
 
@@ -15,7 +13,7 @@
             style="@style/title"
             android:layout_marginTop="10dp"
             android:drawableStart="@drawable/arrow"
-            android:text="Consumo de açúcar" />
+            android:text="Uso de insulina" />
 
         <TextView
             android:id="@+id/labelData"
@@ -34,26 +32,25 @@
             android:id="@+id/labelAlimento"
             style="@style/label"
             android:layout_below="@id/editTextData"
-            android:text="Selecione um alimento" />
+            android:text="Tipo da insulina utilizada" />
 
         <Spinner
             android:id="@+id/selectAlimento"
             style="@style/input"
             android:layout_below="@+id/labelAlimento"
-            android:entries="@array/alimento_array"
             android:spinnerMode="dropdown" />
 
         <Button
-            android:id="@+id/btnAdicionarAlimento"
             style="@style/button"
-            android:layout_below="@id/selectAlimento"
+            android:id="@+id/btnAdicionarAlimento"
             android:layout_alignParentBottom="false"
+            android:layout_below="@id/selectAlimento"
             android:backgroundTint="@color/main_green"
             android:text="Adicionar alimento" />
 
         <Button
-            android:id="@+id/btnSalvarValores"
             style="@style/button"
+            android:id="@+id/btnSalvarValores"
             android:text="Salvar valores" />
 
     </RelativeLayout>
