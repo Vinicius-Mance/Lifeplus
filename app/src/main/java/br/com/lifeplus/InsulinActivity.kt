@@ -11,7 +11,7 @@ import android.widget.Toast
 class InsulinActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_Insulin)
+        setContentView(R.layout.activity_insulin)
 
         val selectInsulina = findViewById<Spinner>(R.id.selectInsulina)
 
