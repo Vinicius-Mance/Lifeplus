@@ -13,7 +13,7 @@
             style="@style/title"
             android:layout_marginTop="10dp"
             android:drawableStart="@drawable/arrow"
-            android:text="Uso de insulina" />
+            android:text="REGISTRO DE GLICEMIA" />
 
         <TextView
             android:id="@+id/labelData"
@@ -29,31 +29,18 @@
             android:inputType="datetime" />
 
         <TextView
-            android:id="@+id/labelAlimento"
-            style="@style/label"
-            android:layout_below="@id/editTextData"
-            android:text="Tipo da insulina utilizada" />
-
-        <Spinner
-            android:id="@+id/selectInsulina"
-            style="@style/input"
-            android:layout_below="@+id/labelAlimento"
-            android:entries="@array/tipo_insulina"
-            android:spinnerMode="dropdown" />
-
-        <TextView
             android:id="@+id/labelML"
             style="@style/label"
             android:layout_below="@+id/titleConsumoDeAcucar"
-            android:layout_marginTop="222dp"
-            android:text="Quantidade aplicada (ml):" />
+            android:layout_marginTop="117dp"
+            android:text="Glicose no Sangue (mg/dL):" />
 
         <EditText
             android:id="@+id/editTextml"
             style="@style/input"
             android:layout_below="@id/labelData"
-            android:layout_marginTop="222dp"
-            android:hint="X ml"
+            android:layout_marginTop="119dp"
+            android:hint="X mg/dL"
             android:inputType="datetime" />
 
         <Button

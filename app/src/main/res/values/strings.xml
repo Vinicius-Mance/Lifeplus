@@ -7,4 +7,13 @@
         <item>Barra de chocolate 90g</item>
     </string-array>
 
+    <string-array name="tipo_insulina">
+        <item>Ultra-rápida</item>
+        <item>Rápida</item>
+        <item>Prolongada</item>
+        <item>Intermediária</item>
+        <item>Intermediária + ultrarrápida</item>
+        <item>Intermediária + rápida</item>
+    </string-array>
+
 </resources>
