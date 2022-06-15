@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lifeplus</string>
+    <string-array name="alimento_array">
+        <item>Coca-cola 600ml</item>
+        <item>Barra de chocolate 90g</item>
+    </string-array>
 </resources>

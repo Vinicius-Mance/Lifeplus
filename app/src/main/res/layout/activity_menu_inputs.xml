@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity"
+    tools:context=".MenuInputsActivity"
     android:background="@drawable/gradient_bg"
     >
 
@@ -19,7 +19,7 @@
 
         <RelativeLayout
             style="@style/section"
-            android:id="@+id/btnVerRegistros"
+            android:id="@+id/btnUsoDeInsulina"
             android:layout_below="@+id/titleMenu"
             android:layout_marginTop="20dp"
             >
@@ -29,14 +29,14 @@
                 />
             <TextView
                 style="@style/label"
-                android:text="Ver registros"
+                android:text="Uso de insulina"
                 />
         </RelativeLayout>
 
         <RelativeLayout
             style="@style/section"
-            android:id="@+id/btnAdicionarRegistros"
-            android:layout_below="@+id/btnVerRegistros"
+            android:id="@+id/btnConsumoDeAcucar"
+            android:layout_below="@+id/btnUsoDeInsulina"
             >
             <ImageView
                 style="@style/sectionImage"
@@ -44,7 +44,22 @@
                 />
             <TextView
                 style="@style/label"
-                android:text="Adicionar registros"
+                android:text="Consumo de Açúcar"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/section"
+            android:id="@+id/btnRegistroDeGlicemia"
+            android:layout_below="@+id/btnConsumoDeAcucar"
+            >
+            <ImageView
+                style="@style/sectionImage"
+                android:src="@drawable/placeholder"
+                />
+            <TextView
+                style="@style/label"
+                android:text="Registro de glicemia"
                 />
         </RelativeLayout>
 

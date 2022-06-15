@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SugarActivity"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <RelativeLayout style="@style/main">
+
+        <TextView
+            android:id="@+id/titleConsumoDeAcucar"
+            style="@style/title"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/arrow"
+            android:text="Consumo de açúcar" />
+
+        <TextView
+            android:id="@+id/labelData"
+            style="@style/label"
+            android:layout_below="@+id/titleConsumoDeAcucar"
+            android:text="Data e horário" />
+
+        <EditText
+            android:id="@+id/editTextData"
+            style="@style/input"
+            android:layout_below="@id/labelData"
+            android:hint="dd/mm/aa as hh:mm"
+            android:inputType="datetime" />
+
+        <TextView
+            android:id="@+id/labelAlimento"
+            style="@style/label"
+            android:layout_below="@id/editTextData"
+            android:text="Selecione um alimento" />
+
+        <Spinner
+            android:id="@+id/selectAlimento"
+            style="@style/input"
+            android:layout_below="@+id/labelAlimento"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnAdicionarAlimento"
+            android:layout_alignParentBottom="false"
+            android:layout_below="@id/selectAlimento"
+            android:backgroundTint="@color/main_green"
+            android:text="Adicionar alimento" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnSalvarValores"
+            android:text="Salvar valores" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

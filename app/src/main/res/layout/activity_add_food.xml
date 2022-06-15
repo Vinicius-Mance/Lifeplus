@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFoodActivity"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <RelativeLayout style="@style/main">
+
+        <TextView
+            android:id="@+id/titleAdicionarAlimento"
+            style="@style/title"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/arrow"
+            android:text="Adicionar alimento" />
+
+        <TextView
+            android:id="@+id/labelAlimento"
+            style="@style/label"
+            android:layout_below="@+id/titleAdicionarAlimento"
+            android:text="Alimento" />
+
+        <EditText
+            android:id="@+id/editTextAlimento"
+            style="@style/input"
+            android:layout_below="@id/labelAlimento"
+            android:hint="Refrigerante"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/labelQuantificador"
+            style="@style/label"
+            android:layout_below="@id/editTextAlimento"
+            android:text="Selecione um alimento" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnSalvarValores"
+            android:text="Salvar valores" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -11,5 +11,6 @@
     <color name="hint">#a1a1a1</color>
     <color name="main_blue">#7cccdc</color>
     <color name="secondary_blue">#38acfa</color>
+    <color name="main_green">#9af37a</color>
     <color name="cream">#c3fcc2</color>
 </resources>

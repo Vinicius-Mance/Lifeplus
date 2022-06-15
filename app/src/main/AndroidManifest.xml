@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lifeplus">
         <activity
+            android:name=".AddFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SugarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsulinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuInputsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
