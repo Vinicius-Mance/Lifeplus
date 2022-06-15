@@ -39,6 +39,7 @@
             style="@style/input"
             android:layout_below="@+id/labelAlimento"
             android:entries="@array/tipo_insulina"
+            android:minHeight="48dp"
             android:spinnerMode="dropdown" />
 
         <TextView

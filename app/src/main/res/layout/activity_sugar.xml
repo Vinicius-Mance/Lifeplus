@@ -41,6 +41,7 @@
             style="@style/input"
             android:layout_below="@+id/labelAlimento"
             android:entries="@array/alimento_array"
+            android:minHeight="48dp"
             android:spinnerMode="dropdown" />
 
         <Button
