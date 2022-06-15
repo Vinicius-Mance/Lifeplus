@@ -3,22 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InsulinActivity"
-    android:background="@drawable/gradient_bg">
+    tools:context=".GlycemiaActivity"
+    android:background="@drawable/gradient_bg"
+    >
 
-    <RelativeLayout style="@style/main">
+    <RelativeLayout
+        style="@style/main"
+        >
 
         <TextView
-            android:id="@+id/titleConsumoDeAcucar"
+            android:id="@+id/titleRegistroDeGlicemia"
             style="@style/title"
             android:layout_marginTop="10dp"
             android:drawableStart="@drawable/arrow"
-            android:text="REGISTRO DE GLICEMIA" />
+            android:text="Registro de glicemia" />
 
         <TextView
             android:id="@+id/labelData"
             style="@style/label"
-            android:layout_below="@+id/titleConsumoDeAcucar"
+            android:layout_below="@+id/titleRegistroDeGlicemia"
             android:text="Data e horário" />
 
         <EditText
@@ -29,19 +32,17 @@
             android:inputType="datetime" />
 
         <TextView
-            android:id="@+id/labelML"
+            android:id="@+id/labelGlicoseNoSangue"
             style="@style/label"
-            android:layout_below="@+id/titleConsumoDeAcucar"
-            android:layout_marginTop="117dp"
+            android:layout_below="@+id/editTextData"
             android:text="Glicose no Sangue (mg/dL):" />
 
         <EditText
             android:id="@+id/editTextml"
             style="@style/input"
-            android:layout_below="@id/labelData"
-            android:layout_marginTop="119dp"
+            android:layout_below="@id/labelGlicoseNoSangue"
             android:hint="X mg/dL"
-            android:inputType="datetime" />
+            android:inputType="text" />
 
         <Button
             android:id="@+id/btnSalvarValores"

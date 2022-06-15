@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lifeplus">
         <activity
+            android:name=".GlycemiaActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddFoodActivity"
             android:exported="false" />
         <activity

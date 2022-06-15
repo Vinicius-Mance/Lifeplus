@@ -23,10 +23,10 @@
             android:layout_below="@+id/titleMenu"
             android:layout_marginTop="20dp"
             >
+
             <ImageView
                 style="@style/sectionImage"
-                android:src="@drawable/placeholder"
-                />
+                android:src="@drawable/placeholder" />
             <TextView
                 style="@style/label"
                 android:text="Uso de insulina"
@@ -49,18 +49,17 @@
         </RelativeLayout>
 
         <RelativeLayout
-            style="@style/section"
             android:id="@+id/btnRegistroDeGlicemia"
-            android:layout_below="@+id/btnConsumoDeAcucar"
-            >
+            style="@style/section"
+            android:layout_below="@+id/btnConsumoDeAcucar">
+
             <ImageView
                 style="@style/sectionImage"
-                android:src="@drawable/placeholder"
-                />
+                android:src="@drawable/placeholder" />
+
             <TextView
                 style="@style/label"
-                android:text="Registro de glicemia"
-                />
+                android:text="Registro de glicemia" />
         </RelativeLayout>
 
     </RelativeLayout>

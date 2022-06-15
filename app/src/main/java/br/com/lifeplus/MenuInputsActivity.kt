@@ -16,5 +16,20 @@ class MenuInputsActivity : AppCompatActivity() {
             val link = Intent(this, SugarActivity::class.java)
             startActivity(link)
         }
+
+        val btnUsoDeInsulina = findViewById<RelativeLayout>(R.id.btnUsoDeInsulina)
+
+        btnUsoDeInsulina.setOnClickListener {
+            val link = Intent(this, InsulinActivity::class.java)
+            startActivity(link)
+        }
+
+        val btnRegistroDeGlicemia = findViewById<RelativeLayout>(R.id.btnRegistroDeGlicemia)
+
+        btnRegistroDeGlicemia.setOnClickListener {
+            val link = Intent(this, GlycemiaActivity::class.java)
+            startActivity(link)
+        }
+
     }
 }
