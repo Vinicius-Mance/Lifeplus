@@ -14,38 +14,35 @@
             android:id="@+id/titleMenu"
             style="@style/title"
             android:drawableStart="@drawable/arrow"
-            android:text="Menu"
-            />
+            android:text="Menu" />
 
         <RelativeLayout
-            style="@style/section"
             android:id="@+id/btnVerRegistros"
+            style="@style/section"
             android:layout_below="@+id/titleMenu"
-            android:layout_marginTop="20dp"
-            >
+            android:layout_marginTop="20dp">
+
             <ImageView
                 style="@style/sectionImage"
-                android:src="@drawable/placeholder"
-                />
+                android:src="@drawable/ver_registros" />
+
             <TextView
                 style="@style/label"
-                android:text="Ver registros"
-                />
+                android:text="Ver registros" />
         </RelativeLayout>
 
         <RelativeLayout
-            style="@style/section"
             android:id="@+id/btnAdicionarRegistros"
-            android:layout_below="@+id/btnVerRegistros"
-            >
+            style="@style/section"
+            android:layout_below="@+id/btnVerRegistros">
+
             <ImageView
                 style="@style/sectionImage"
-                android:src="@drawable/placeholder"
-                />
+                android:src="@drawable/adicionar_registros" />
+
             <TextView
                 style="@style/label"
-                android:text="Adicionar registros"
-                />
+                android:text="Adicionar registros" />
         </RelativeLayout>
 
     </RelativeLayout>

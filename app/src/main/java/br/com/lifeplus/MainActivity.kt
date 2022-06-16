@@ -3,6 +3,7 @@ package br.com.lifeplus
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +24,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(link)
         }
 
+        val call = RetrofitFactory().retrofitService().getFoodData().toString()
+//        Toast.makeText(this, call.toString(),Toast.LENGTH_LONG).show()
+        Log.i("call A", call)
     }
 
 

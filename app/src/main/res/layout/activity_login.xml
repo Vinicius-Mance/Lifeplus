@@ -12,24 +12,13 @@
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/placeholder"
-        />
-
-    <TextView
-        style="@style/title"
-        android:id="@+id/labelLogo"
-        android:layout_below="@+id/logo"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:text="Life+"
-        android:textSize="32dp"
-        android:textStyle="italic"
-        />
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
 
     <RelativeLayout
         style="@style/main"
-        android:layout_below="@+id/labelLogo">
+        android:layout_below="@+id/logo">
         <!--  email editText-->
         <TextView
             android:id="@+id/labelEmail"

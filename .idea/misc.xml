@@ -6,6 +6,7 @@
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/circle.xml" value="0.1765" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/gradient_bg.xml" value="0.1765" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/ic_lock_24.xml" value="0.1765" />
+        <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/ic_logo.xml" value="0.1945" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/round_corners_rectangle.xml" value="0.1765" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/round_rectangle.xml" value="0.1765" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/drawable/round_rectangle_primary.xml" value="0.1765" />
@@ -20,11 +21,7 @@
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/activity_menu_inputs.xml" value="0.3808876811594203" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/activity_register.xml" value="0.333786231884058" />
         <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/activity_sugar.xml" value="0.3808876811594203" />
-        <entry key="..\:/Users/Usuario/Desktop/projeto facul/Lifeplus/app/src/main/res/layout/activity_insulin.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Usuario/Desktop/projeto facul/Lifeplus/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Usuario/Desktop/projeto facul/Lifeplus/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Usuario/Desktop/projeto facul/Lifeplus/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Usuario/Desktop/projeto facul/Lifeplus/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projetos_Diversos/kotlin/Lifeplus/app/src/main/res/layout/spinner_style.xml" value="0.3808876811594203" />
       </map>
     </option>
   </component>

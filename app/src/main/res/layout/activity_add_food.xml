@@ -70,6 +70,19 @@
 
         </RadioGroup>
 
+        <TextView
+            android:id="@+id/labelAcucar"
+            style="@style/label"
+            android:layout_below="@+id/radioGroupQuantificador"
+            android:text="Açúcar estimado" />
+
+        <EditText
+            android:id="@+id/editTextAcucar"
+            style="@style/input"
+            android:layout_below="@id/labelAcucar"
+            android:hint="X g"
+            android:inputType="number" />
+
         <Button
             android:id="@+id/btnSalvarValores"
             style="@style/button"

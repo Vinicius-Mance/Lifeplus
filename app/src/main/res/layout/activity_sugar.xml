@@ -44,10 +44,23 @@
             android:minHeight="48dp"
             android:spinnerMode="dropdown" />
 
+        <TextView
+            android:id="@+id/labelAcucar"
+            style="@style/label"
+            android:layout_below="@+id/selectAlimento"
+            android:text="Açúcar estimado" />
+
+        <EditText
+            android:id="@+id/editTextAcucar"
+            style="@style/input"
+            android:layout_below="@id/labelAcucar"
+            android:hint="X g"
+            android:inputType="number" />
+
         <Button
             android:id="@+id/btnAdicionarAlimento"
             style="@style/button"
-            android:layout_below="@id/selectAlimento"
+            android:layout_below="@id/editTextAcucar"
             android:layout_alignParentBottom="false"
             android:backgroundTint="@color/main_green"
             android:text="Adicionar alimento" />
