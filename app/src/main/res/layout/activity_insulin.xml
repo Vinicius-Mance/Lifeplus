@@ -9,7 +9,7 @@
     <RelativeLayout style="@style/main">
 
         <TextView
-            android:id="@+id/titleConsumoDeAcucar"
+            android:id="@+id/titleUsoDeInsulina"
             style="@style/title"
             android:layout_marginTop="10dp"
             android:drawableStart="@drawable/arrow"
@@ -18,7 +18,7 @@
         <TextView
             android:id="@+id/labelData"
             style="@style/label"
-            android:layout_below="@+id/titleConsumoDeAcucar"
+            android:layout_below="@+id/titleUsoDeInsulina"
             android:text="Data e horário" />
 
         <EditText
@@ -29,7 +29,7 @@
             android:inputType="datetime" />
 
         <TextView
-            android:id="@+id/labelAlimento"
+            android:id="@+id/labelInsulina"
             style="@style/label"
             android:layout_below="@id/editTextData"
             android:text="Tipo da insulina utilizada" />
@@ -37,25 +37,24 @@
         <Spinner
             android:id="@+id/selectInsulina"
             style="@style/input"
-            android:layout_below="@+id/labelAlimento"
+            android:layout_below="@+id/labelInsulina"
             android:entries="@array/tipo_insulina"
             android:minHeight="48dp"
             android:spinnerMode="dropdown" />
 
         <TextView
-            android:id="@+id/labelML"
+            android:id="@+id/labelQuantidadeAplicada"
             style="@style/label"
-            android:layout_below="@+id/titleConsumoDeAcucar"
-            android:layout_marginTop="222dp"
+            android:layout_below="@+id/selectInsulina"
             android:text="Quantidade aplicada (ml):" />
 
         <EditText
-            android:id="@+id/editTextml"
+            android:id="@+id/editTextQunatidadeAplicada"
             style="@style/input"
-            android:layout_below="@id/labelData"
-            android:layout_marginTop="222dp"
+            android:layout_below="@id/labelQuantidadeAplicada"
             android:hint="X ml"
-            android:inputType="datetime" />
+            android:inputType="number"
+            />
 
         <Button
             android:id="@+id/btnSalvarValores"
