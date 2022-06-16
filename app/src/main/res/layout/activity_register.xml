@@ -65,13 +65,12 @@
             />
 
         <EditText
-            style="@style/input"
             android:id="@+id/editTextSenha"
+            style="@style/inputPassword"
             android:layout_below="@id/labelSenha"
             android:drawableEnd="@drawable/ic_lock_24"
             android:hint="•••••••••••••"
-            android:inputType="textPassword"
-            />
+            android:inputType="textPassword" />
 
 <!--        confirmar senha EditText-->
 
@@ -83,13 +82,12 @@
             />
 
         <EditText
-            style="@style/input"
             android:id="@+id/editTextConfirmarSenha"
+            style="@style/inputPassword"
             android:layout_below="@id/labelConfirmarSenha"
             android:drawableEnd="@drawable/ic_lock_24"
             android:hint="•••••••••••••"
-            android:inputType="textPassword"
-            />
+            android:inputType="textPassword" />
 
         <Button
             style="@style/button"

@@ -13,7 +13,9 @@ class InsulinActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_insulin)
 
-        val selectInsulina = findViewById<Spinner>(R.id.selectInsulina)
+        val spinner = findViewById<Spinner>(R.id.selectInsulina)
+
+
 
     }
 }

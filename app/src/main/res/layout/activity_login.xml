@@ -54,11 +54,13 @@
 
         <EditText
             android:id="@+id/editTextSenha"
-            style="@style/input"
+            style="@style/inputPassword"
             android:layout_below="@id/labelSenha"
             android:drawableEnd="@drawable/ic_lock_24"
             android:hint="•••••••••••••"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+
+            />
 
         <Button
             android:id="@+id/btnEntrar"
