@@ -34,8 +34,43 @@
             android:id="@+id/labelQuantificador"
             style="@style/label"
             android:layout_below="@id/editTextAlimento"
-            android:text="Selecione um alimento" />
+            android:text="Quantificador" />
 
+        <RadioGroup
+            style="@style/input"
+            android:id="@+id/radioGroupQuantificador"
+            android:layout_below="@+id/labelQuantificador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:id="@+id/divQuantificador"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <RadioButton
+                    android:textColor="@color/black"
+                    android:id="@+id/radioButtonGramas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gramas (g)"
+                    android:buttonTint="@color/black"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMililitros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Mililitros (ml)"
+                    android:textColor="@color/black"
+                    android:buttonTint="@color/black"
+                    />
+
+            </RelativeLayout>
+
+        </RadioGroup>
         <Button
             style="@style/button"
             android:id="@+id/btnSalvarValores"
