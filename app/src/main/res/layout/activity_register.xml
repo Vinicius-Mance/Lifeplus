@@ -14,22 +14,20 @@
         >
 
         <TextView
-            style="@style/title"
             android:id="@+id/titleRegister"
+            style="@style/title"
             android:layout_marginTop="10dp"
             android:drawableStart="@drawable/arrow"
             android:text="Cadastro"
             android:textAllCaps="true"
-            android:textSize="25dp"
-            />
+            android:textSize="25dp" />
 
         <!--  nome editText-->
         <TextView
-            style="@style/label"
             android:id="@+id/labelNome"
+            style="@style/label"
             android:layout_below="@+id/titleRegister"
-            android:text="Como podemos te chamar?"
-            />
+            android:text="Como podemos te chamar?" />
 
         <EditText
             style="@style/input"
@@ -47,16 +45,15 @@
             android:text="Insira um email"
             />
 
-        <EditText
-            style="@style/input"
-            android:id="@+id/editTextEmail"
-            android:layout_below="@id/labelEmail"
-            android:hint="seuemail@lifeplus.com"
-            android:inputType="textEmailAddress"
-            />
-
 
         <!--   senha editText-->
+        <EditText
+            android:id="@+id/editTextEmail"
+            style="@style/input"
+            android:layout_below="@id/labelEmail"
+            android:hint="seuemail@lifeplus.com"
+            android:inputType="textEmailAddress" />
+
         <TextView
             style="@style/label"
             android:id="@+id/labelSenha"

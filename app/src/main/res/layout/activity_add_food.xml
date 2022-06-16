@@ -37,43 +37,42 @@
             android:text="Quantificador" />
 
         <RadioGroup
-            style="@style/input"
             android:id="@+id/radioGroupQuantificador"
-            android:layout_below="@+id/labelQuantificador"
+            style="@style/input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            >
-            <RelativeLayout
-                android:id="@+id/divQuantificador"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+            android:layout_below="@+id/labelQuantificador"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
 
-                <RadioButton
-                    android:textColor="@color/black"
-                    android:id="@+id/radioButtonGramas"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Gramas (g)"
-                    android:buttonTint="@color/black"
-                    />
+            <RadioButton
+                android:id="@+id/radioButtonGramas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/black"
+                android:text="Gramas (g)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
 
-                <RadioButton
-                    android:id="@+id/radioButtonMililitros"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:text="Mililitros (ml)"
-                    android:textColor="@color/black"
-                    android:buttonTint="@color/black"
-                    />
-
-            </RelativeLayout>
+            <RadioButton
+                android:id="@+id/radioButtonMililitros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/black"
+                android:text="Mililitros (ml)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
 
         </RadioGroup>
+
         <Button
-            style="@style/button"
             android:id="@+id/btnSalvarValores"
+            style="@style/button"
             android:text="Salvar valores" />
 
     </RelativeLayout>
