@@ -3,8 +3,14 @@
     <string name="app_name">Lifeplus</string>
 
     <string-array name="alimento_array">
-        <item>Coca-cola 600ml</item>
-        <item>Barra de chocolate 90g</item>
+        <item>Danone 50ml</item>
+        <item>Chocolate Barra 90g</item>
+        <item>Sorvete 200g</item>
+        <item>Fatia de Bolo 100g</item>
+        <item>Bolacha Pacote 60g</item>
+        <item>Refrigerante 600 ml</item>
+        <item>Refrigerante 250 ml</item>
+        <item>Banana (1unidade) 100g</item>
     </string-array>
 
     <string-array name="tipo_insulina">
